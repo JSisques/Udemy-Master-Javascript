@@ -17,6 +17,7 @@
     <strong>Texto en negrita</strong>
     <em>Texto en cursiva</em>
     <blockquote>Cita de autor</blockquote>
+    <hr>
     <h3>Listado de frutas:</h3>
     <ol>
         <li>Manzana</li>
@@ -29,8 +30,10 @@
         <li>Sandia</li>
     </ol>
 
+    <h1>Imágenes en HTML</h1>
     <img src="./img/IMG_9274.jpeg" alt="Imagen de un escarabajo ciervo hembra" width="400"  title="Foto de un escarabajo ciervo hembra">
 
+    <h1>Tablas en HTML</h1>
     <table border="1">
         <tr>
             <th>Nombre</th>
@@ -47,5 +50,25 @@
             <td colspan="2">Lopez</td>
         </tr>
     </table>
+
+    <h1>Formularios en HTML</h1>
+    <form action="" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" placeholder="Texto">
+        <br>
+        <label for="descripcion">Descripción</label>
+        <textarea name="descripcion" id="holi" cols="30" rows="10"></textarea>
+        <br>
+        <input type="radio" name="genero" value="hombre"> Hombre <br>
+        <input type="radio" name="genero" value="mujer"> Mujer <br>
+        <input type="radio" name="genero" value="nada"> Nada <br>
+        
+        <select name="Hombre" id="selector">
+            <option value="hombre">Hombre</option>
+            <option value="mujer">Mujer</option>
+            <option value="nada">Nada</option>
+        </select>
+        <input type="submit" value="Enviar formulario">
+    </form>
 </body>
 </html>
