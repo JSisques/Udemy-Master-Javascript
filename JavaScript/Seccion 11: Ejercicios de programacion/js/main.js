@@ -55,7 +55,6 @@ for (let index = num1; index < num2; index++) {
 /*
 Ejercicio 4:
 Hacer un programa que muestre todos los numeros impares entre 2 que haya introducido el usuario.
-*/
 
 var num1 = parseInt(prompt("Introduce el numero 1"));
 var num2 = parseInt(prompt("Introduce el numero 2"));
@@ -65,11 +64,20 @@ for (let index = num1; index < num2; index++) {
     console.log(index); 
     }  
 }
+*/
 
 /*
 Ejercicio 5:
-Programa que pida dos numeros y que nos diga cual es el menor, el mayor o si son iguales.
+Mostrar todos los numeros divisiores de un numero introducido por el usuario.
 */
+
+var num1 = parseInt(prompt("Introduce el numero 1"));
+
+for (let index = 0; index < num1; index++) {
+    if(num1 % index == 0){
+        console.log(index); 
+    }  
+}
 
 /*
 Ejercicio 6:
