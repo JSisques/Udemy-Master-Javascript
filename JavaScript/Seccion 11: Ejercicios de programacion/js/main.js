@@ -69,7 +69,6 @@ for (let index = num1; index < num2; index++) {
 /*
 Ejercicio 5:
 Mostrar todos los numeros divisiores de un numero introducido por el usuario.
-*/
 
 var num1 = parseInt(prompt("Introduce el numero 1"));
 
@@ -78,10 +77,21 @@ for (let index = 0; index < num1; index++) {
         console.log(index); 
     }  
 }
+*/
 
 /*
 Ejercicio 6:
-Programa que pida dos numeros y que nos diga cual es el menor, el mayor o si son iguales.
+Decir si un numero es parc o impar
+Si no es valido que nos vuelva a pedir el numero
+
+var num1 = parseInt(prompt("Introduce el numero 1"));
+
+if(num1 %2 == 0){
+    console.log("Es par");
+} else{
+    console.log("Es impar");
+}
+
 */
 
 /*
