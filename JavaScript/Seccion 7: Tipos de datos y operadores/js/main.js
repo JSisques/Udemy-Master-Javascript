@@ -12,3 +12,7 @@ var modulo = entero % float;
 
 //Tipos de datos
 var string = "Hola";
+var bool = true;
+
+//Detectar tipo de dato
+alert(typeof(entero));
