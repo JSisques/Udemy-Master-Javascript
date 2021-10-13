@@ -21,7 +21,7 @@ if(num1 > num2){
 /*
 Ejercicio 2:
 Utilizando un bucle pedir numeros y calcular su suma y su media hasta introducir un numero negativo
-*/
+
 var contador = 0;
 var num = 0;
 var suma = 0;
@@ -38,11 +38,19 @@ do {
     num =  parseInt(prompt("Introduce un número"));
 
 } while (num >= 0);
+*/
 
 /*
 Ejercicio 3:
-Programa que pida dos numeros y que nos diga cual es el menor, el mayor o si son iguales.
+Hacer un programa que muestre todos los numeros entre 2 que haya introducido el usuario
 */
+
+var num1 = parseInt(prompt("Introduce el numero 1"));
+var num2 = parseInt(prompt("Introduce el numero 2"));
+
+for (let index = num1; index < num2; index++) {
+    console.log(index);   
+}
 
 /*
 Ejercicio 4:
