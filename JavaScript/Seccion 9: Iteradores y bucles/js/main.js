@@ -18,3 +18,14 @@ do {
     console.log(contador);
     contador++;
 } while (contador != 100);
+
+contador = 0;
+do {
+    console.log(contador);
+    contador++;
+
+    if(contador == 50){
+        break;
+    }
+} while (contador != 100);
+
