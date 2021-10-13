@@ -35,3 +35,25 @@ if (year >= 2000 && year <= 2020){
 if (year == 2008 || year == 2018){
     console.log("El año acaba en 8");
 }
+
+//Switch
+var imprime = "";
+switch(year){
+    case 18:
+        imprime = "Eres mayor de edad";
+        break;
+    case 25:
+        imprime = "Eres adulto";
+        break;
+    case 18:
+        imprime = "Crisis de los 40";
+        break;
+    case 75:
+        imprime = "Eres un anciano";
+        break;
+    default:
+        imprime = "Tu edad es neutra";
+        break;
+}
+
+console.log(year);
