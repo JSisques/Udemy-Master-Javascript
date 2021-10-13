@@ -12,3 +12,9 @@ while(contador != 100){
     console.log(contador);
     contador++;
 }
+
+contador = 0;
+do {
+    console.log(contador);
+    contador++;
+} while (contador != 100);
