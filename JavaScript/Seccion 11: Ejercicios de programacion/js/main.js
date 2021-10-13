@@ -96,8 +96,14 @@ if(num1 %2 == 0){
 
 /*
 Ejercicio 7:
-Programa que pida dos numeros y que nos diga cual es el menor, el mayor o si son iguales.
+Tabla de multiplicar de un numero pedido al usuario.
 */
+
+var num1 = parseInt(prompt("Introduce el numero 1"));
+
+for (let index = 0; index < 11; index++) {
+    console.log(num1 + " x " + index + " = " + num1 * index);
+}
 
 /*
 Ejercicio 8:
