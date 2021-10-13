@@ -97,15 +97,28 @@ if(num1 %2 == 0){
 /*
 Ejercicio 7:
 Tabla de multiplicar de un numero pedido al usuario.
-*/
 
 var num1 = parseInt(prompt("Introduce el numero 1"));
 
 for (let index = 0; index < 11; index++) {
     console.log(num1 + " x " + index + " = " + num1 * index);
 }
+*/
 
 /*
 Ejercicio 8:
-Programa que pida dos numeros y que nos diga cual es el menor, el mayor o si son iguales.
+Calculadora que sumer, reste, multiplique y divida 2 numeros
 */
+
+var num1 = parseInt(prompt("Introduce el numero 1"));
+var num2 = parseInt(prompt("Introduce el numero 2"));
+
+var suma = num1 + num2;
+var resta = num1 - num2;
+var multiplicacion = num1 * num2;
+var division = num1 / num2;
+
+alert(suma);
+alert(resta);
+alert(multiplicacion);
+alert(division);
