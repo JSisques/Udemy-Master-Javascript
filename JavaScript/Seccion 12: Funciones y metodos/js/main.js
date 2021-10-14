@@ -87,3 +87,19 @@ console.log(dato);
 console.log(texto1.length)
 dato = texto1 + texto2;
 console.log(dato);
+
+//Funciones de búsqueda
+var busqueda = texto1.indexOf("curso")
+console.log(busqueda);
+var busqueda = texto1.match("curso")
+console.log(busqueda);
+var busqueda = texto1.match("/curso/g")
+console.log(busqueda);
+var busqueda = texto1.substr(14,5)
+console.log(busqueda);
+var busqueda = texto1.charAt(23)
+console.log(busqueda);
+var busqueda = texto1.startsWith("Bi")
+console.log(busqueda);
+var busqueda = texto1.includes("rso")
+console.log(busqueda);
