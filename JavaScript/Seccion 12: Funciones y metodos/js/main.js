@@ -103,3 +103,13 @@ var busqueda = texto1.startsWith("Bi")
 console.log(busqueda);
 var busqueda = texto1.includes("rso")
 console.log(busqueda);
+
+//Funciones de reemplazo
+var reemplazo = texto1.replace("JS", "Python")
+console.log(reemplazo);
+var busqueda = texto1.slice(12,22)
+console.log(busqueda);
+var busqueda = texto1.split(" ")
+console.log(busqueda);
+var busqueda = texto1.trim()
+console.log(busqueda);
