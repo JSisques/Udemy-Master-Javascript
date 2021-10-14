@@ -1,9 +1,12 @@
-function calculadora(){
-    console.log("Soy la calculadora");
-    console.log("Si soy");
-
-    return "Hola, soy la calculadora";
+function calculadora(num1, num2){
+    console.log("La suma es: " + (num1 + num2));
+    console.log("La resta es: " + (num1 - num2));
+    console.log("La multiplicación es: " + (num1 * num2));
+    console.log("La división es: " + (num1 / num2));
+    console.log("*********************************")
 }
 
-var resultado = calculadora();
-console.log(resultado);
+for (let index = 0; index < 10; index++) {
+    var resultado = calculadora(index,8);
+    console.log(resultado); 
+}
