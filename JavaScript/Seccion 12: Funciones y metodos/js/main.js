@@ -31,3 +31,14 @@ for (let index = 0; index < 10; index++) {
     console.log(resultado); 
 }
 */
+
+//Parametros rest y spread
+function listadoFrutas(fruta1, fruta2, ...restoDeFrutas){
+    console.log("Fruta 1: " + fruta1);
+    console.log("Fruta 2: " + fruta2);
+    console.log(restoDeFrutas);
+}
+
+listadoFrutas("Naranja", "Pera", "Melón", "Sandía", "Coco");
+var frutas = ["Naranja", "Melocotón"];
+listadoFrutas(...frutas, "Sandia", "Coco", "Pera");
