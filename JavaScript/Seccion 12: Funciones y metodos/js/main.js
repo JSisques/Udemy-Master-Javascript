@@ -72,3 +72,18 @@ function holaMundo(texto){
 }
 
 holaMundo("Holi");
+
+//Funciones para procesar textos
+var numero = 444;
+var texto1 = "Bienvenido al curso de JS";
+var texto2 = "Está óptimo";
+
+var dato = numero.toString();
+console.log(dato);
+var dato = texto1.toUpperCase();
+console.log(dato);
+var dato = texto1.toLowerCase();
+console.log(dato);
+console.log(texto1.length)
+dato = texto1 + texto2;
+console.log(dato);
