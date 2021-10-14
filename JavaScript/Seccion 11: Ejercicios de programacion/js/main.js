@@ -108,7 +108,6 @@ for (let index = 0; index < 11; index++) {
 /*
 Ejercicio 8:
 Calculadora que sumer, reste, multiplique y divida 2 numeros
-*/
 
 var num1 = parseInt(prompt("Introduce el numero 1"));
 var num2 = parseInt(prompt("Introduce el numero 2"));
@@ -122,3 +121,4 @@ alert(suma);
 alert(resta);
 alert(multiplicacion);
 alert(division);
+*/
