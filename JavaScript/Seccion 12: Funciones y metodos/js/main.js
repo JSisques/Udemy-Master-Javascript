@@ -1,16 +1,24 @@
+function porConsola(num1, num2){
+    console.log("La suma es: " + (num1 + num2));
+    console.log("La resta es: " + (num1 - num2));
+    console.log("La multiplicación es: " + (num1 * num2));
+    console.log("La división es: " + (num1 / num2));
+    console.log("*********************************");
+}
+
+function porPantalla(num1, num2){
+    document.write("La suma es: " + (num1 + num2));
+    document.write("La resta es: " + (num1 - num2));
+    document.write("La multiplicación es: " + (num1 * num2));
+    document.write("La división es: " + (num1 / num2));
+    document.write("*********************************");
+}
+
 function calculadora(num1, num2, mostrar = false){
     if(mostrar){
-        console.log("La suma es: " + (num1 + num2));
-        console.log("La resta es: " + (num1 - num2));
-        console.log("La multiplicación es: " + (num1 * num2));
-        console.log("La división es: " + (num1 / num2));
-        console.log("*********************************");
+        porConsola(num1,num2);
     } else{
-        document.write("La suma es: " + (num1 + num2));
-        document.write("La resta es: " + (num1 - num2));
-        document.write("La multiplicación es: " + (num1 * num2));
-        document.write("La división es: " + (num1 / num2));
-        document.write("*********************************");
+        porPantalla(num1,num2);
     }
 }
 
