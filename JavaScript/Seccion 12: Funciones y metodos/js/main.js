@@ -42,3 +42,7 @@ function listadoFrutas(fruta1, fruta2, ...restoDeFrutas){
 listadoFrutas("Naranja", "Pera", "Melón", "Sandía", "Coco");
 var frutas = ["Naranja", "Melocotón"];
 listadoFrutas(...frutas, "Sandia", "Coco", "Pera");
+
+var pelicula = function(nombre){
+    return "La pelicula es: " + nombre;
+}
