@@ -60,3 +60,15 @@ sumame(5, 7, dato => {
 }, dato =>{
     console.log("La suma por dos es: ", (dato*2));
 });
+
+var numero = 12
+var texto = "Texto global"
+
+function holaMundo(texto){
+    var holaMundo = "Texto dentro de la función";
+    console.log(texto);
+    console.log(numero.toString());
+    console.log(holaMundo);
+}
+
+holaMundo("Holi");
