@@ -25,3 +25,12 @@ document.write("<h2>Reccorer array con for each</h2>")
 lenguajes.forEach((element, index) => {
     document.write("<p>" + index + " " + element + "</p>")
 });
+
+//Arrays bidimensionales
+var categorias = ["Acción", "Horror", "Comedia"]
+var peliculas = ["Gran torino", "Seven", "La casa encantada"]
+var cine = [categorias, peliculas]
+
+console.log(cine)
+console.log(cine[0][1])
+console.log(cine[1][0])
