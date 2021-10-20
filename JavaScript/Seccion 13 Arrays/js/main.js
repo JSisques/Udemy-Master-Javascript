@@ -34,3 +34,14 @@ var cine = [categorias, peliculas]
 console.log(cine)
 console.log(cine[0][1])
 console.log(cine[1][0])
+
+//Operaciones con arrays
+var elemento = prompt("Introduce la pelicula")
+peliculas.push(elemento)
+console.log(peliculas)
+
+peliculas.pop()
+console.log(peliculas)
+
+var index = peliculas.indexOf("Gran torino")
+console.log(index)
