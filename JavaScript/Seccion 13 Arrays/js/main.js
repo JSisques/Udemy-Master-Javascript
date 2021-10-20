@@ -51,3 +51,10 @@ var texto = "Hola que tal estamos"
 var texto_array = texto.split(" ")
 
 console.log(texto_array)
+
+//Ordenar array
+peliculas.sort()
+console.log(peliculas)
+
+peliculas.reverse()
+console.log(peliculas)
