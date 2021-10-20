@@ -58,3 +58,8 @@ console.log(peliculas)
 
 peliculas.reverse()
 console.log(peliculas)
+
+//Recorrer array for in
+for (const peli in peliculas) {
+    console.log(peliculas[peli])
+}
