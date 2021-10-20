@@ -63,3 +63,9 @@ console.log(peliculas)
 for (const peli in peliculas) {
     console.log(peliculas[peli])
 }
+
+//Buscar en un array
+var busqueda = lenguajes.find(lenguaje =>lenguaje = "PHP")
+var busquedaNumeros = numeros.find(precio => precio >= 5)
+console.log(busqueda)
+console.log(busquedaNumeros)
