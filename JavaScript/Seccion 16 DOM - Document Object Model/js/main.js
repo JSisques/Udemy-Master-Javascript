@@ -1,3 +1,4 @@
+/*
 function cambiarColor(color){
     caja.style.backgroundColor = color;
 }
@@ -14,3 +15,11 @@ caja.style.color = "white";
 caja.className = "hola";
 
 console.log(caja);
+*/
+var todosLosDivs = document.getElementsByTagName("div");
+var contenidoEnTexto = todosLosDivs[2]
+contenidoEnTexto.innerHTML = "Otro texto para el segundo elemento"
+
+console.log(contenidoEnTexto)
+
+var hr = document.createElement("hr")
