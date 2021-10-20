@@ -16,6 +16,12 @@ if(elemento < nombres.length){
 }
 
 document.write("<h1>Lenguajes de programación</h1>")
+document.write("<h2>Reccorer array con for</h2>")
 for (let index = 0; index < lenguajes.length; index++) {
     document.write("<p>" + lenguajes[index] + "</p>")
 }
+
+document.write("<h2>Reccorer array con for each</h2>")
+lenguajes.forEach((element, index) => {
+    document.write("<p>" + index + " " + element + "</p>")
+});
